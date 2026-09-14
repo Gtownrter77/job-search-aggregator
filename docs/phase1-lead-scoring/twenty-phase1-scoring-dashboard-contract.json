@@ -1,0 +1,27 @@
+{
+  "version": "phase1-2026-09-13",
+  "weights": {
+    "locationFit": 0.25,
+    "benefits": 0.30,
+    "salary": 0.25,
+    "companyReputation": 0.12,
+    "contactability": 0.08
+  },
+  "scoreBands": [
+    {"min": 80, "max": 100, "label": "Priority"},
+    {"min": 60, "max": 79, "label": "Qualified"},
+    {"min": 40, "max": 59, "label": "Nurture / enrich"},
+    {"min": 0, "max": 39, "label": "Low priority"}
+  ],
+  "vehicleBonus": {"points": 15, "requiresExplicitEvidence": true, "cap": 100},
+  "eligibilityGates": [
+    {"key": "dnc", "failWhen": ["Matched"], "status": "Blocked", "reason": "DNC"},
+    {"key": "localTimeZone", "failWhen": ["Missing", "Unresolved"], "status": "Blocked", "reason": "Missing time zone"},
+    {"key": "phone", "failWhen": ["Missing", "Invalid"], "status": "Blocked", "reason": "Invalid phone"},
+    {"key": "consentLegalBasis", "failWhen": ["Unknown"], "status": "Review required", "reason": "Consent/legal basis"},
+    {"key": "scheduledInterview", "failWhen": ["Scheduled"], "status": "Hold", "reason": "Scheduled interview"},
+    {"key": "freshness", "failWhen": ["Stale", "Unknown"], "status": "Review required", "reason": "Stale data"}
+  ],
+  "outreachEnabled": false,
+  "approvedHomeBase": "3770 Hopkins Rd, Powder Springs, GA 30127"
+}

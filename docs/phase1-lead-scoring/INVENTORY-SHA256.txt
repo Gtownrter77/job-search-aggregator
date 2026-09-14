@@ -1,0 +1,22 @@
+# Handoff inventory and checksums
+
+Generated 2026-09-14. SHA-256 values cover every file in the original package.
+
+c291624de7ae7da004d108a7ab0a1b4bd65c89a4418736cfc7153952c7bc29a9  ./.env.example
+387f47d2749f3685ebe185ab67034cdc319845edbe656dd4b584485952a76c49  ./.gitignore
+00a98ea16c23351b815d58c11ebacd085197571743f41cef81482c0b86f1f1a0  ./README.md
+6ce916e8da61e833d3174fc67fb7e3da16b15d5563974a33d531bd7f5548e50d  ./db/0001_phase2_outreach.sql
+c9d7e1f176c22d95c0b3be7a959d4e184a99a1439c608808e9000c64dbe92af9  ./docs/GUARDRAILS.md
+ee441b077e8ed2f752227f0fc2f5b17152951fceb22db2362e3333a545e8ee40  ./docs/HANDOFF.md
+97f8e9e36d911b1b44bbec18406ea34e5897899ceeadc4304643ddced75ec6cb  ./docs/phase1-lead-scoring-dashboard-proposal-corrected.md
+0cda77749a57be90f9510adc038ee8d982fbbf579f12d8b7f19cca7feaa4eac4  ./docs/twenty-phase1-scoring-dashboard-contract.json
+fd2fa50b6bd88da48f15b18324a5afea81e85250d716d4cc9346844be0cfbfd4  ./docs/twenty-phase1-scoring-dashboard-implementation.md
+95e58a00cd7f3bb1811b745d4421fa29b98ca468c29fc292b58c1f4672abfd0f  ./src/App.tsx
+969ce2530043a58ab4a7f38dbcb4ac39dd99586d11522098df1857767989a19f  ./src/Outreach.tsx
+64ed7f227273338e51e760e69e098170ef3a2f83be3b5714931ac271a7032204  ./src/db.ts
+bd7a33613d40bad424b009782f1f5f226b41a729df0bd4a1d47e4aaa39544b66  ./src/local-llm.test.ts
+9cac80837413d8af29b64802d735f85d8dc7c7edebda5662415447a4cebc2f2a  ./src/local-llm.ts
+403f6e3c6384a1472cd0892edee7fe436c02fbace2a98a14cf80f71ee830dc53  ./src/outreach.test.ts
+441517619fd7aa213ddb9342952e64a634dcd4449026b5f77fa18b9d87012c1b  ./src/outreach.ts
+727345e4000690f98952c8fd8a8486c68111f473e1da8288fda0e9fe221edde6  ./src/routers.ts
+f3fede5b23efbaafa7af7addb28a8eb15c5dafc1f302543cec7dafa3ebdef1c7  ./src/schema.ts
